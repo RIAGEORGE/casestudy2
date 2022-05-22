@@ -7,7 +7,7 @@ var fb2=document.getElementById("feedback2");
 function validate(){
 
     var myMail=mail.value;
-    var myPwd=pw.value;
+    var myPwd=pwd.value;
     
     var regexMail= /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+)\.([a-z]{1,3})([.a-zA-Z]{2,10})$/
 
